@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Mulish?query=Mulish);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
 #circle {
     border-radius: 50%;
@@ -23,7 +23,7 @@
 
 p {
     color: black;
-    font-size: 18pt;
+    font-size: 14pt;
     text-align: center;
     margin-top: 10px;
 }
@@ -33,3 +33,4 @@ h2 {
     font-size: 35px;
     text-align: center;
 }
+

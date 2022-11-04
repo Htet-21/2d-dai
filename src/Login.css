@@ -1,5 +1,8 @@
+
+
 .Login {
     text-align: center;
+    margin-top: 80px;
 }
 
 #username {
@@ -40,10 +43,142 @@
   }
 
   #credentials {
-    margin-top: 100px;
+    margin-top: 45px;
     font-size: 14pt;
     color: black;
     margin-right: 250px;
     margin-bottom: 5px;
     font-family: poppins;
   }
+
+  .main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 400px;
+    background-color: #ffffff;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: white;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container-image {
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  } 
+
+  input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    border: none;
+    border: 1px solid #ff4c43;
+    outline: none;
+    background-color: #fff;
+  }
+
+  .email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 30px;
+      font-size: 14pt;
+  }
+  .second-input{
+    padding-top: 50px;
+  }
+  #no {
+    margin-top: 100px;
+    font-size: 14pt;
+    color: black;
+    margin-right: 250px;
+    margin-bottom: 5px;
+    font-family: poppins;
+}
+
+
+  button{
+    width: 330px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #ff4c43;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 30px;
+  }
+  button {
+    width: 330px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #ff4c43;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 100px;
+}
+  .login-button{
+      padding-top: 0px;
+  }
+
+  .link{
+    font-size: 14pt;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 155px;
+    margin-top: -20px;
+  }
+  .credentials{
+    font-size: 14pt;
+    margin-right: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .remember{
+    font-size: 14pt;
+    margin-left: -180px;
+    margin-top: -20px;
+    font-weight: 500;
+  }
+  #rcorner {
+    border-radius: 5px;
+    border: 1px solid #ffa9a9;
+    padding: 0px;
+    width: 15px;
+    height: 15px;
+    margin-left: 50px;
+  }
+  .buttom{
+    font-size: 14pt;
+    font-weight: 500;
+  }
+  
+   a{
+       color: rgb(0, 0, 0);
+   }
