@@ -15,13 +15,13 @@ function Login() {
              <p id='rcorner'></p>
             <p className='remember'>Remember</p>          
             <p className="link">
-              <a href="#">Forgot password?</a>
+              <Link to="/register">Forgot password?</Link>
             </p>
            </div>
            <div className="login-button">
           <button>Login</button>
           <p className="buttom">
-          Not a member? <a href="#">Register Now</a>
+          Not a member? <Link to="/registerinfo">Register Now</Link>
             </p>
           </div>
 

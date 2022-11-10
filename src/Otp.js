@@ -1,22 +1,20 @@
 import Home from './Home'
 import './Login.css'
+import Password from './password';
 import { Link } from 'react-router-dom';
 
-const  register = () => {
+const  Otp = () => {
     return (
         <div className="App">
         <div className="content">
            <Home />
            <div className="Login">
             <div className="username">
-            <p id='credentials'>Phone No</p>
-            <input type="text" placeholder="Enter Your Phone Number" className="name"/>
+            <p id='credentials'>OTP</p>
+            <input type="text" placeholder="Enter Your OTP" className="name"/>
             </div>
             <div className="login-button">
-            <Link to="/otp"><button>Continue</button></Link> 
-          <p className="buttom">
-          Not a member? <Link to="/registerinfo"> Register Now</Link> 
-            </p>
+            <Link to="/password"><button>Continue</button></Link> 
           </div>
         </div>
         </div>
@@ -26,4 +24,4 @@ const  register = () => {
     );
 }
  
-export default register;
+export default Otp;
